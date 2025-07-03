@@ -1,0 +1,66 @@
+
+body{
+    font-family: serif;
+    color: white;
+    background-color: #121212;
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+}
+h1{
+    text-align: center;
+}
+fieldset{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    margin: auto;
+    border-radius: 30px;
+    border: 1px solid red;
+    padding: 20px;
+}
+header{
+    height: 20vh;
+    width: 100vw;
+}
+input{
+    border-radius: 15px;
+    height: 35px;
+    width: 300px;
+    font-family: dhia;
+    font-size: large;
+}
+#l{
+    font-size: large;
+    padding-right: 40px;
+}
+button{
+    margin-left: 80px;
+    padding: 11px;
+    border-radius: 15px;
+    width: 60px;
+}
+@font-face {
+    font-family: dhia;
+    src: url(bro/BRO\ FONT\ FAMILY/);
+}
+#inp{
+    transition: all 1.3s ease;
+    border: none;
+}
+button:hover{
+    background-color: darkorchid;
+    box-shadow: wheat 0px 0px 20px;
+    color: white;
+}
+button{
+    transition: all 1.3s ease;
+}
+h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,500%);
+}
